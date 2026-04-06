@@ -34,7 +34,7 @@ const SignupForm = () => {
 
       // ✅ Success hone ke baad Dashboard pe redirect
       setTimeout(() => {
-        navigate("/dashboard");        // ← Yahan redirect ho raha hai
+        navigate("/home");        // ← Yahan redirect ho raha hai
       }, 1200);   // 1.2 second delay for nice UX
 
     } catch (err) {

@@ -1,7 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// Render ke liye base config
 export default defineConfig({
-  base: '/',
-  plugins: [react()]
+  plugins: [react()],
+  build: {
+    outDir: 'dist'
+  },
+  server: {
+    port: 3000
+  }
 })
