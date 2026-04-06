@@ -1,0 +1,20 @@
+import React from 'react';  
+import Hero from './Hero';
+import LeftSection from './LeftSection';
+import RightSection from './RightSection';
+import Universe from './Universe';
+export default function ProductPage(){
+    return(
+      <>
+      <Hero />
+      <LeftSection  images={"/image/kite.png"} title={"Kite"} description={"Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."} link1={<a href="link1">Try Demo<i class="fa-solid fa-arrow-right"></i></a>} link2={<a href="link2"> <img src="/image/appstoreBadge.svg" alt="appstore"className="img-fluid mb-4"/></a>}link3={<a href="link">Learn More <i class="fa-solid fa-arrow-right"></i></a>} link4={<a href = "link4"><img src="/image/googlePlayBadge.svg" alt="playstore" className="img-fluid mb-4"/></a>}/>
+    <RightSection  images={"/image/varsity.png"} title={"Varsity"} description={"An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."} link1={<a href="link1">link<i class="fa-solid fa-arrow-right"></i></a>} link2={<a href="link2"> <img src="/image/appstoreBadge.svg" alt="appstore"className="img-fluid mb-4"/></a>}link3={<a href="link">link <i class="fa-solid fa-arrow-right"></i></a>} link4={<a href = "link4"><img src="/image/googlePlayBadge.svg" alt="playstore" className="img-fluid mb-4"/></a>}/>
+     <LeftSection  images={"/image/coin.png"} title={"Coin"} description={"Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices."} link1={<a href="link1">link<i class="fa-solid fa-arrow-right"></i></a>} link2={<a href="link2"> <img src="/image/appstoreBadge.svg" alt="appstore"className="img-fluid mb-4"/></a>}link3={<a href="link">link <i class="fa-solid fa-arrow-right"></i></a>} link4={<a href = "link4"><img src="/image/googlePlayBadge.svg" alt="playstore" className="img-fluid mb-4"/></a>}/>
+    <RightSection images={"/image/kiteconnect.png"}title={"Kite Connect API"}description={"Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase."}link1={<a href="link1">Kite Connect<i className="fa-solid fa-arrow-right"></i></a>} />
+      <LeftSection  images={"/image/coin.png"} title={"Kite"} description={"Kite is a powerful trading platform designed for retail investors."} link1={<a href="link1">link<i class="fa-solid fa-arrow-right"></i></a>} link2={<a href="link2"> <img src="/image/appstoreBadge.svg" alt="appstore"className="img-fluid mb-4"/></a>}link3={<a href="link">link <i class="fa-solid fa-arrow-right"></i></a>} link4={<a href = "link4"><img src="/image/googlePlayBadge.svg" alt="playstore" className="img-fluid mb-4"/></a>}/>
+      <RightSection  images={"/image/varsity.pn"} title={"Kite"} description={"Kite is a powerful trading platform designed for retail investors."} link1={<a href="link1">link<i class="fa-solid fa-arrow-right"></i></a>} link2={<a href="link2"> <img src="/image/appstoreBadge.svg" alt="appstore"className="img-fluid mb-4"/></a>}link3={<a href="link">link <i class="fa-solid fa-arrow-right"></i></a>} link4={<a href = "link4"><img src="/image/googlePlayBadge.svg" alt="playstore" className="img-fluid mb-4"/></a>}/>
+      <LeftSection  images={"/image/coin.png"} title={"Kite"} description={"Kite is a powerful trading platform designed for retail investors."} link1={<a href="link1">link<i class="fa-solid fa-arrow-right"></i></a>} link2={<a href="link2"> <img src="/image/appstoreBadge.svg" alt="appstore"className="img-fluid mb-4"/></a>}link3={<a href="link">link <i class="fa-solid fa-arrow-right"></i></a>} link4={<a href = "link4"><img src="/image/googlePlayBadge.svg" alt="playstore" className="img-fluid mb-4"/></a>}/>
+      <Universe />
+      </>
+      )
+}  
